@@ -207,30 +207,19 @@ h3{
 	body{
 		background-color: green;
 	}
-	.wrapper{
-		width:100%;
-	}
-	#aboutMe, #topTags, #content {
-		width:70%;
-	}
-	#content{
-		margin:0 auto;
-	}
 
-	#connect{
-		float:left;
-		margin-left:80px;
-		margin-bottom: 20px;
-	}
-	#labelTag{
-		float:left;
-		margin-left: 60px;
-		margin-top:20px;
-		margin-bottom: 20px;
+	#topTags, #content {
+		width:70%;
 	}
 	#myInfo{
 		clear:both;
 	}
+	#connect{
+		float:left;
+		margin-left:10%;
+		margin-bottom: 20px;
+	}
+
 	#pageFooter{
 		clear:both;
 	}
