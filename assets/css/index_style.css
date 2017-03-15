@@ -148,6 +148,7 @@ h3{
 	font-size:1.2em;
 	font-weight: bold;
 }
+
 @media screen and (max-width: 980px){
 	body{
 		background-color: red;
@@ -156,7 +157,7 @@ h3{
 		width:100%;
 	}
 
-	#topTags, #content{
+	#topTags, #content, #pageFooter {
 		width:70%;
 		margin-left: 10%;
 	}
@@ -183,7 +184,7 @@ h3{
 		width:100%;
 		margin:0 auto;
 	}
-	#topTags, #content {
+	#topTags, #content, #pageFooter {
 		width:70%;
 	}
 
@@ -208,7 +209,7 @@ h3{
 		background-color: green;
 	}
 
-	#topTags, #content {
+	#topTags, #content #pageFooter {
 		width:70%;
 	}
 	#myInfo{

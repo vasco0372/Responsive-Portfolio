@@ -6,6 +6,10 @@ body{
 	color:#777777;
 	margin:0;
 }
+.wrapper{
+	width:1120px;
+	margin:0 auto;
+	}
 #topTags{
 	width:960px;
 	height:60px;
@@ -142,4 +146,85 @@ h2{
 h3{
 	font-size:1.2em;
 	font-weight: bold;
+}
+@media screen and (max-width: 980px){
+	body{
+		background-color: red;
+	}
+	.wrapper{
+		width:100%;
+	}
+
+	#topTags, #content, #pageFooter {
+		width:70%;
+		margin-left: 10%;
+	}
+	#contact {
+		width:80%;
+		margin-left: 10%;
+	}
+
+	#connect{
+		float:left;
+		margin-left:60px;
+		margin-bottom: 20px;
+	}
+	#pageFooter{
+		clear:both;
+		width:100%;
+	}
+} 
+@media screen and (max-width: 790px){
+	body{
+		background-color: blue;
+	}
+	.wrapper{
+		width:100%;
+		margin:0 auto;
+	}
+	#topTags, #content, #pageFooter {
+		width:70%;
+	}
+
+	#connect{
+		float:left;
+		margin-left:80px;
+		margin-bottom: 20px;
+	}
+
+	#labelTag{
+		float:left;
+		margin-left: 60px;
+		margin-top:20px;
+		margin-bottom:20px;
+	}
+	#contact{
+		clear:both;
+		width:80%;
+		margin-left: 10%;
+	}
+} 
+@media screen and (max-width: 640px){
+	body{
+		background-color: green;
+	}
+
+	#topTags, #content #pageFooter {
+		width:70%;
+	}
+	#contact{
+		clear:both;
+		width:80%;
+		margin-left: 10%;
+	}
+	
+	#connect{
+		float:left;
+		margin-left:10%;
+		margin-bottom: 20px;
+	}
+
+	#pageFooter{
+		clear:both;
+	}
 }
