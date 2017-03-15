@@ -148,9 +148,7 @@ h3{
 	font-weight: bold;
 }
 @media screen and (max-width: 980px){
-	body{
-		background-color: red;
-	}
+
 	.wrapper{
 		width:100%;
 	}
@@ -175,9 +173,7 @@ h3{
 	}
 } 
 @media screen and (max-width: 790px){
-	body{
-		background-color: blue;
-	}
+
 	.wrapper{
 		width:100%;
 		margin:0 auto;
@@ -205,9 +201,6 @@ h3{
 	}
 } 
 @media screen and (max-width: 640px){
-	body{
-		background-color: green;
-	}
 
 	#topTags, #content #pageFooter {
 		width:70%;
@@ -217,7 +210,7 @@ h3{
 		width:80%;
 		margin-left: 10%;
 	}
-	
+
 	#connect{
 		float:left;
 		margin-left:10%;
