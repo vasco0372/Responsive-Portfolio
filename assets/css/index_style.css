@@ -15,18 +15,19 @@ body{
 	width: 960px;
 	height:60px;
 	margin-top:80px;
-	margin-left:80px;
+	margin-left:60px;
 }
 #nameTag{
 	width:200px;
 	height:60px;
 	background-color: #4aaaa5;
-	margin-left:80px;
+/*	margin-left:60px;*/
 	/*margin-top:80px;*/
 	color:white;
 	text-align: center;
 	float:left;
 	border-radius: 10px;
+	margin-left: 60px;
 }
 h2 {
 	margin-top:15px;
@@ -62,7 +63,7 @@ h2 {
 
 #content{
 	width:960px;
-	margin-left: 80;
+	margin-left: 60px;
 	padding-top:20px;
 	overflow:auto;
 	background-image: url("images/cheap_diagonal_fabric.png");
@@ -108,7 +109,7 @@ h2 {
 	color:white;
 	text-align: center;
 	border-top:10px solid #4aaaa5;
-/*	margin-left: 60px;*/
+	margin-left: 60px;
 }
 /*classes and ids for fonts and coloring*/
 
@@ -154,16 +155,19 @@ h3{
 	.wrapper{
 		width:100%;
 	}
-	#aboutMe,#topTags, #content{
+
+	#topTags, #content{
 		width:70%;
+		margin-left: 10%;
+	}
+	#aboutMe {
+		width:80%;
+		margin-left: 10%;
 	}
 
-	#content{
-		margin:0 auto;
-	}
 	#connect{
 		float:left;
-		margin-left:80px;
+		margin-left:60px;
 		margin-bottom: 20px;
 	}
 	#pageFooter{
@@ -177,12 +181,10 @@ h3{
 	}
 	.wrapper{
 		width:100%;
-	}
-	#aboutMe, #topTags, #content {
-		width:70%;
-	}
-	#content{
 		margin:0 auto;
+	}
+	#topTags, #content {
+		width:70%;
 	}
 
 	#connect{
@@ -190,9 +192,10 @@ h3{
 		margin-left:80px;
 		margin-bottom: 20px;
 	}
+
 	#labelTag{
 		float:left;
-		margin-left: 80px;
+		margin-left: 60px;
 		margin-top:20px;
 		margin-bottom:20px;
 	}
@@ -221,7 +224,7 @@ h3{
 	}
 	#labelTag{
 		float:left;
-		margin-left: 80px;
+		margin-left: 60px;
 		margin-top:20px;
 		margin-bottom: 20px;
 	}
