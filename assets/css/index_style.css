@@ -80,9 +80,10 @@ h2 {
 	margin-bottom:30px;	
 }
 #picture{
-	width:150px;
-	height:170px;
+	width:130px;
+	height:150px;
 	float:left;
+	margin-right: 10px;
 }
 #myInfo{
 	width:96%;
@@ -217,5 +218,8 @@ h3{
 
 	#pageFooter{
 		clear:both;
+	}
+	#nameTag, #labelTag{
+		margin-left: 10%;
 	}
 }

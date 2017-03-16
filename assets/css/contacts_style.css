@@ -91,7 +91,7 @@ h2 {
 }
 footer{
 	clear:both;
-	width:960px;
+	width:1040px;
 	height:80px;
 	padding-top:30px;
 	background-color: #666666;
@@ -133,7 +133,7 @@ legend{
 }
 #button{
 	background-color: #4aaaa5;
-	margin-left:70px;
+	margin-left:10%;
 	width:100px;
 	color:white;
 	height: 30px;
@@ -153,12 +153,12 @@ h3{
 		width:100%;
 	}
 
-	#topTags, #content, #pageFooter {
+	#topTags, #content  {
 		width:70%;
 		margin-left: 10%;
 	}
-	#contact {
-		width:80%;
+	#contact, input, #message{
+		width:60%;
 		margin-left: 10%;
 	}
 
@@ -178,7 +178,7 @@ h3{
 		width:100%;
 		margin:0 auto;
 	}
-	#topTags, #content, #pageFooter {
+	#topTags, #content {
 		width:70%;
 	}
 
@@ -194,11 +194,9 @@ h3{
 		margin-top:20px;
 		margin-bottom:20px;
 	}
-	#contact{
-		clear:both;
-		width:80%;
+	#contact, input, #message, legend{
+		width:60%;
 		margin-left: 10%;
-	}
 } 
 @media screen and (max-width: 640px){
 
@@ -220,4 +218,9 @@ h3{
 	#pageFooter{
 		clear:both;
 	}
+
+		#nameTag, #labelTag{
+		margin-left: 10%;
+	}
+}
 }
