@@ -216,6 +216,16 @@ h3{
 		margin-top:20px;
 		margin-bottom:20px;
 	}
+	
+		#nameTag, #labelTag{
+		width:100%;
+		margin-left: 0%;
+	}
+
+	.labels, .portfolio{
+		width:33%;
+		margin-left: 15%
+	}
 
 	#myPictures, #connect{
 		width:70%;
@@ -255,5 +265,6 @@ h3{
 	}
 	.labels, .portfolio{
 		width:33%;
+		margin-left: 15%
 	}
 }
