@@ -180,39 +180,34 @@ h3{
 		width:100%;
 	}
 
-	#topTags, #content {
-		width:70%;
+	#topTags, #content, #pageFooter {
+		width:90%;
 		margin-left: 10%;
 	}
-	#myPictures {
-		width:80%;
+	#aboutMe {
+		width:50%;
 		margin-left: 10%;
 	}
 
 	#connect{
-		float:left;
-		margin-left:60px;
+		width:25%;
+		float:right;
+		margin-left:0%;
+		margin-right: 5%;
 		margin-bottom: 20px;
 	}
 	#pageFooter{
 		clear:both;
-		width:100%;
 	}
 } 
-@media screen and (max-width: 790px){
+@media screen and (max-width: 768px){
 
 	.wrapper{
 		width:100%;
 		margin:0 auto;
 	}
 	#topTags, #content {
-		width:70%;
-	}
-
-	#connect{
-		float:left;
-		margin-left:80px;
-		margin-bottom: 20px;
+		width:80%;
 	}
 
 	#labelTag{
@@ -221,30 +216,44 @@ h3{
 		margin-top:20px;
 		margin-bottom:20px;
 	}
+
+	#aboutMe, #connect{
+		width:70%;
+		float:left;
+		margin-left:80px;
+		margin-bottom: 20px;
+	}
 	#pageFooter{
 		clear:both;
+		width:100%;
 	}
 } 
 @media screen and (max-width: 640px){
 
 
-	#topTags, #content {
+	#topTags, #content, #aboutMe, img {
 		width:70%;
+		margin-left: 20%
 	}
 	#myInfo{
 		clear:both;
 	}
 	#connect{
+		width:70%;
 		float:left;
-		margin-left:10%;
+		margin-left:20%;
 		margin-bottom: 20px;
 	}
 
 	#pageFooter{
+		width:100%;
 		clear:both;
 	}
-		#nameTag, #labelTag{
-		margin-left: 10%;
+	#nameTag, #labelTag{
+		width:100%;
+		margin-left: 0%;
 	}
-}
+	.labels, .portfolio{
+		width:33%;
+	}
 }

@@ -89,7 +89,7 @@ h2 {
 	width:96%;
 	padding-bottom: 60px;
 	padding-left:10px;
-	padding-right:20px;
+	padding-right:10px;
 }
 #connect{
 	width: 200px;
@@ -157,38 +157,33 @@ h3{
 	}
 
 	#topTags, #content, #pageFooter {
-		width:70%;
+		width:90%;
 		margin-left: 10%;
 	}
 	#aboutMe {
-		width:80%;
+		width:50%;
 		margin-left: 10%;
 	}
 
 	#connect{
-		float:left;
-		margin-left:60px;
+		width:25%;
+		float:right;
+		margin-left:0%;
+		margin-right: 5%;
 		margin-bottom: 20px;
 	}
 	#pageFooter{
 		clear:both;
-		width:100%;
 	}
 } 
-@media screen and (max-width: 790px){
+@media screen and (max-width: 768px){
 
 	.wrapper{
 		width:100%;
 		margin:0 auto;
 	}
-	#topTags, #content, #pageFooter {
-		width:70%;
-	}
-
-	#connect{
-		float:left;
-		margin-left:80px;
-		margin-bottom: 20px;
+	#topTags, #content {
+		width:80%;
 	}
 
 	#labelTag{
@@ -197,29 +192,44 @@ h3{
 		margin-top:20px;
 		margin-bottom:20px;
 	}
+
+	#aboutMe, #connect{
+		width:70%;
+		float:left;
+		margin-left:80px;
+		margin-bottom: 20px;
+	}
 	#pageFooter{
 		clear:both;
+		width:100%;
 	}
 } 
 @media screen and (max-width: 640px){
 
 
-	#topTags, #content #pageFooter {
+	#topTags, #content, #aboutMe, img {
 		width:70%;
+		margin-left: 20%
 	}
 	#myInfo{
 		clear:both;
 	}
 	#connect{
+		width:70%;
 		float:left;
-		margin-left:10%;
+		margin-left:20%;
 		margin-bottom: 20px;
 	}
 
 	#pageFooter{
+		width:100%;
 		clear:both;
 	}
 	#nameTag, #labelTag{
-		margin-left: 10%;
+		width:100%;
+		margin-left: 0%;
+	}
+	.labels, .portfolio{
+		width:33%;
 	}
 }
