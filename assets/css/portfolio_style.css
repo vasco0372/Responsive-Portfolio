@@ -184,8 +184,8 @@ h3{
 		width:90%;
 		margin-left: 10%;
 	}
-	#aboutMe {
-		width:50%;
+	#myPictures {
+		width:40%;
 		margin-left: 10%;
 	}
 
@@ -217,7 +217,7 @@ h3{
 		margin-bottom:20px;
 	}
 
-	#aboutMe, #connect{
+	#myPictures, #connect{
 		width:70%;
 		float:left;
 		margin-left:80px;
@@ -231,11 +231,11 @@ h3{
 @media screen and (max-width: 640px){
 
 
-	#topTags, #content, #aboutMe, img {
+	#topTags, #content, #myPictures {
 		width:70%;
 		margin-left: 20%
 	}
-	#myInfo{
+	table{
 		clear:both;
 	}
 	#connect{
