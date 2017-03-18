@@ -182,7 +182,7 @@ h3{
 		width:100%;
 		margin:0 auto;
 	}
-	#topTags, #content {
+#topTags, #content, #pageFooter {
 		width:80%;
 	}
 
@@ -191,7 +191,7 @@ h3{
 		margin-left: 0%;
 	}
 .labels, .portfolio{
-		width:33%;
+		width:30%;
 		margin-left:15%;
 	}
 
@@ -203,15 +203,15 @@ h3{
 	}
 	#pageFooter{
 		clear:both;
-		width:100%;
+		width:80%;
 	}
 } 
 @media screen and (max-width: 640px){
 
 
-	#topTags, #content, #aboutMe{
-		width:70%;
-		margin-left: 20%
+	#topTags, #content, #aboutMe, #pageFooter{
+		width:80%;
+		margin-left: 10%;
 	}
 		img {
 		width:70%;
@@ -221,14 +221,14 @@ h3{
 		clear:both;
 	}
 	#connect{
-		width:70%;
+		width:80%;
 		float:left;
-		margin-left:20%;
+		margin-left:10%;
 		margin-bottom: 20px;
 	}
 
 	#pageFooter{
-		width:100%;
+		width:80%;
 		clear:both;
 	}
 	#nameTag, #labelTag{
