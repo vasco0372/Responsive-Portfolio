@@ -180,7 +180,7 @@ h3{
 		width:100%;
 	}
 
-	#topTags, #content, #pageFooter {
+	#topTags, #content {
 		width:90%;
 		margin-left: 10%;
 	}
@@ -197,6 +197,7 @@ h3{
 		margin-bottom: 20px;
 	}
 	#pageFooter{
+		width:100%;
 		clear:both;
 	}
 } 
@@ -209,14 +210,6 @@ h3{
 	#topTags, #content {
 		width:80%;
 	}
-
-/*	#labelTag{
-		float:left;
-		margin-left: 60px;
-		margin-top:20px;
-		margin-bottom:20px;
-	}*/
-	
 		#nameTag, #labelTag{
 		width:100%;
 		margin-left: 0%;
@@ -256,7 +249,7 @@ h3{
 	}
 
 	#pageFooter{
-		width:100%;
+		width:700%;
 		clear:both;
 	}
 	#nameTag, #labelTag{
