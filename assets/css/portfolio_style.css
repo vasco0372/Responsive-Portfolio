@@ -13,7 +13,7 @@ body{
 #topTags{
 	width:960px;
 	height:60px;
-	margin-top:80px;
+	margin-top:0px;
 	margin-left:80px;
 }
 #nameTag{
@@ -65,7 +65,7 @@ h2 {
 	margin-left: 80px;
 	padding-top:20px;
 	overflow:auto;
-	background-image: url("images/cheap_diagonal_fabric.png");
+	background-image: url("../../images/cheap_diagonal_fabric.png");
 }
 #myPictures{
 	width: 570px;
